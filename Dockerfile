@@ -4,10 +4,6 @@ MAINTAINER Lin Song <linsongui@gmail.com>
 ENV REFRESHED_AT 2017-03-23
 ENV SWAN_VER 3.20
 
-ENV VPN_IPSEC_PSK=mikro
-ENV VPN_USER=mikro
-ENV VPN_PASSWORD=mikro
-
 WORKDIR /opt/src
 
 RUN apt-get -yqq update \
